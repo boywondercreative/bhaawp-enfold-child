@@ -1,0 +1,9 @@
+@media print {
+body { background:red; color:black; margin:0 }
+#em-wrapper { background:red; color:black; margin:0 }
+http://css-tricks.com/snippets/css/print-url-after-links/
+a:after{ display:none }
+-- a:after{ content:" (" attr(href) ") ";font-size:0.8em;font-weight:normal;}
+#content { display:block }
+#footer { display:none }
+}

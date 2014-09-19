@@ -29,6 +29,18 @@ function avia_include_shortcode_template($paths)
 	return $paths;
 }
 
+// http://codex.wordpress.org/Styling_for_Print
+// http://wordpress.stackexchange.com/questions/111099/include-print-style-sheet
+function bhaa_print_styles(){
+	wp_enqueue_style(
+	'bhaa-print-style',
+	get_stylesheet_directory_uri().'/css/print-style.css',
+	array(),
+	'20130821',
+	'print' // print styles only
+	);
+}
+add_action( 'wp_enqueue_scripts', 'bhaa_print_styles' );
 
 /**
  *	Turn on Custom CSS Class field for all Avia Layout Builder elements
