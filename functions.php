@@ -29,6 +29,18 @@ function avia_include_shortcode_template($paths)
 	return $paths;
 }
 
+/**
+ * Disable these wordpress head details
+ */
+remove_action('wp_head','wp_generator');
+remove_action('wp_head','wp_shortlink_wp_head' );
+remove_action('wp_head','adjacent_posts_rel_link_wp_head' );
+remove_action('wp_head','rsd_link');
+remove_action('wp_head','wlwmanifest_link');
+
+/**
+ * Register a print css style sheet so the events page can be pretty printed.
+ */
 // http://codex.wordpress.org/Styling_for_Print
 // http://wordpress.stackexchange.com/questions/111099/include-print-style-sheet
 function bhaa_print_styles(){
