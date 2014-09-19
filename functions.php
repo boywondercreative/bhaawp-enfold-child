@@ -54,6 +54,10 @@ function bhaa_login_headerurl( $url ) {
 	return get_bloginfo( 'url' );
 }
 add_filter('login_headerurl','bhaa_login_headerurl');
+function bhaa_login_headertitle() {
+	return 'BHAA - For runners, by runners!';
+}
+add_filter('login_headertitle', 'bhaa_login_headertitle');
 
 /**
  * Register a print css style sheet so the events page can be pretty printed.
