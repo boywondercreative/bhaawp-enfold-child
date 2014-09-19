@@ -39,6 +39,23 @@ remove_action('wp_head','rsd_link');
 remove_action('wp_head','wlwmanifest_link');
 
 /**
+ * Show the bhaa logo on the login screen
+ */
+function bhaa_login_head() {
+	echo "<style>
+		body.login #login h1 a {
+		background: url('http://bhaa.ie/wp-content/uploads/2012/11/headerlogo.jpg') no-repeat center top transparent;
+		height: 120px;
+		width: 200px;
+	}</style>";
+}
+add_action('login_head','bhaa_login_head');
+function bhaa_login_headerurl( $url ) {
+	return get_bloginfo( 'url' );
+}
+add_filter('login_headerurl','bhaa_login_headerurl');
+
+/**
  * Register a print css style sheet so the events page can be pretty printed.
  */
 // http://codex.wordpress.org/Styling_for_Print
