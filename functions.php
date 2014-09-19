@@ -42,12 +42,12 @@ remove_action('wp_head','wlwmanifest_link');
  * Show the bhaa logo on the login screen
  */
 function bhaa_login_head() {
-	echo "<style>
+	echo '<style>
 		body.login #login h1 a {
-		background: url('http://bhaa.ie/wp-content/uploads/2012/11/headerlogo.jpg') no-repeat center top transparent;
+		background: url('.get_stylesheet_directory_uri().'/images/bhaa_logo_transparent.png) no-repeat center top transparent;
 		height: 120px;
 		width: 200px;
-	}</style>";
+	}</style>';
 }
 add_action('login_head','bhaa_login_head');
 function bhaa_login_headerurl( $url ) {
