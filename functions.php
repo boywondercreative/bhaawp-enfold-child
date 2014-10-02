@@ -10,6 +10,15 @@
  * @link http://www.kriesi.at/documentation/enfold/using-a-child-theme/
  */
 
+/**
+ * Denis Mccaul - This is the code I added to add the sharing buttons to the bottom of pages
+ */
+add_filter('avf_template_builder_content', 'avia_add_social_toolbar_template_builder', 10, 1);
+function avia_add_social_toolbar_template_builder($content = "") {
+	$content .= avia_social_share_links(array(), false);
+	$content .= '<div style="height:1px; margin-top:50px;" class="hr"></div>';
+	return $content;
+}
 
 /**
  *	Add filter to add or replace Enfold ALB shortcodes with new folder contents
@@ -19,7 +28,6 @@
  *
  *	@link http://www.kriesi.at/documentation/enfold/add-new-or-replace-advanced-layout-builder-elements-from-child-theme/
  */
-
 add_filter('avia_load_shortcodes', 'avia_include_shortcode_template', 15, 1);
 function avia_include_shortcode_template($paths)
 {
@@ -73,7 +81,7 @@ function bhaa_print_styles(){
 	'print' // print styles only
 	);
 }
-add_action( 'wp_enqueue_scripts', 'bhaa_print_styles' );
+//add_action( 'wp_enqueue_scripts', 'bhaa_print_styles' );
 
 /**
  *	Turn on Custom CSS Class field for all Avia Layout Builder elements
