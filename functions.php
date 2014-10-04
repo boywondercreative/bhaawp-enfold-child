@@ -38,6 +38,20 @@ function avia_include_shortcode_template($paths)
 }
 
 /**
+ * Enfold contact form hack.
+ */
+function enfold_add_custom_hidden(){
+?>
+<script>
+jQuery(window).load(function(){
+jQuery('label.textare_label.hidden.textare_label_avia_text_1').removeClass('hidden');
+});
+</script>
+<?php
+}
+add_action('wp_footer','enfold_add_custom_hidden');
+
+/**
  * Disable these wordpress head details
  */
 remove_action('wp_head','wp_generator');
