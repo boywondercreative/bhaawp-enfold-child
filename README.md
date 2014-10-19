@@ -11,6 +11,13 @@ Race|Url|
 ----|----
 Swords|http://bhaa.ie/wp-content/uploads/2014/10/swords.jpg
 Eircom|http://bhaa.ie/wp-content/uploads/2014/10/eircom_cherryfield.jpg
+Garda|http://bhaa.ie/wp-content/uploads/2014/10/garda_bhaa.jpg
+Airport|http://bhaa.ie/wp-content/uploads/2014/10/airport.jpg
+Maynooth|http://bhaa.ie/wp-content/uploads/2014/10/maynooth.jpg
+DCC Raheny|http://bhaa.ie/wp-content/uploads/2014/10/raheny.jpg
+RTE|http://bhaa.ie/wp-content/uploads/2014/10/rte.jpg
+KClub|http://bhaa.ie/wp-content/uploads/2014/10/kclub.jpg
+ESG|http://bhaa.ie/wp-content/uploads/2014/10/sandymount-esb.jpg
 
 ## Organiser Images
 
