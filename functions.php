@@ -21,6 +21,14 @@ function avia_add_social_toolbar_template_builder($content = "") {
 }
 
 /**
+ * Update the footer message.
+ */
+add_filter('kriesi_backlink','bhaa_backlink');
+function bhaa_backlink() {
+	return " Web Programming by <a href='https://github.com/emeraldjava/bhaawp' target='_blank'>emeraldjava</a>. Web Design and Development by 
+	<a href='http://goonlinewebdesign.ie' target='_blank'>Go Online Web Design</a>";
+}
+/**
  *	Add filter to add or replace Enfold ALB shortcodes with new folder contents
  *	
  *	Note that the shortcodes must be in the same format as those in 
