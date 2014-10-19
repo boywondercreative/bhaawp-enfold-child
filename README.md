@@ -1,7 +1,7 @@
 bhaawp-enfold-child
 ===================
 
-An enfold child theme for the bhaa.ie website. All layout and photo settings will be defined here.
+This project defined the custom enfold child theme specific to for the [bhaa.ie|www.bhaa.ie] website. All layout and photo settings will be defined here.
 
 h2. Race Images
 
