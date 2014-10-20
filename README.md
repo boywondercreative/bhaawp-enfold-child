@@ -24,13 +24,25 @@ DCC 5km|http://bhaa.ie/wp-content/uploads/2014/10/irishtown-dcc.jpg
 Dublin Fire Brigade|http://bhaa.ie/wp-content/uploads/2014/10/dublinfirebrigade.jpg
 OPW|http://bhaa.ie/wp-content/uploads/2014/10/opw-trim.jpg
 Castleknock|http://bhaa.ie/wp-content/uploads/2014/10/BHAA-Castleknock-College-Cross-Country-Race-Teachers2.jpg
-Marthon|http://bhaa.ie/wp-content/uploads/2014/10/Dublin-City-Maratho-BHAA2.jpg
+Marathon|http://bhaa.ie/wp-content/uploads/2014/10/Dublin-City-Maratho-BHAA2.jpg
 BOI|http://bhaa.ie/wp-content/uploads/2014/10/BHAA-ALSAA-Dublin-Airport-Cross-Country-Race1.jpg
 Vodafone|http://bhaa.ie/wp-content/uploads/2014/10/BHAA-Marlay-Park-Vodafone-Cross-Country-Race1.jpg
 
 ## Organiser Images
 
 The organiser image is 180*180 in size. It appears on the races page.
+
+Race|Url|
+----|----
+BHAA|http://bhaa.ie/wp-content/uploads/2014/09/bhaa-Business-Houses-Athletic-Association-Dublin-Logo.jpg
+NorthCountyFarmers|
+Eircom|http://bhaa.ie/wp-content/uploads/2014/10/eircom.png
+Garda|http://bhaa.ie/wp-content/uploads/2014/10/garda_logo_bhaa.png
+AIB|http://bhaa.ie/wp-content/uploads/2014/10/aib_logo_bhaa.png
+Marathon|http://bhaa.ie/wp-content/uploads/2014/10/dublin-marathon-organiser.png
+BankOfIreland|http://bhaa.ie/wp-content/uploads/2014/10/Bank-Of-Ireland-Logo.jpg
+IrishLife|http://bhaa.ie/wp-content/uploads/2014/10/Irish-Life-Logo.jpg
+Vodafone|http://bhaa.ie/wp-content/uploads/2014/10/Vodafone-Logo.jpg
 
 ## Colour Scheme
 
