@@ -4,7 +4,7 @@
 	/*
 	 * get_header is a basic wordpress function, used to retrieve the header.php file in your theme directory.
 	 */
-	 get_header();
+	get_header();
 
 	$title  = __('Blog - Latest News', 'avia_framework'); //default blog title
 	$t_link = home_url('/');
@@ -17,7 +17,8 @@
 		$t_sub =  avia_post_meta($new, 'subtitle');
 	}
 
-	if( get_post_meta(get_the_ID(), 'header', true) != 'no') echo avia_title(array('title' => $title, 'link' => $t_link, 'subtitle' => $t_sub));
+	if( get_post_meta(get_the_ID(), 'header', true) != 'no') 
+		echo avia_title(array('title' => $title, 'link' => $t_link, 'subtitle' => $t_sub));
 
 ?>
 
@@ -37,33 +38,12 @@
 				$content = apply_filters('the_content', $page->post_content);
 				echo $content;
 
-					//get_template_part( 'includes/loop', 'index' );
-
-					//show related posts based on tags if there are any
-					//get_template_part( 'includes/related-posts');
-
-					//wordpress function that loads the comments template "comments.php"
-					//comments_template( '/includes/comments.php');
-
 				?>
 
 
 				<!--end content-->
 				</div>
 
-				<?php
-				$avia_config['currently_viewing'] = "blog";
-				//get the sidebar
-				get_sidebar();
-
-
-				?>
-
-
 			</div><!--end container-->
 
-
-
-
 <?php get_footer(); ?>
-
