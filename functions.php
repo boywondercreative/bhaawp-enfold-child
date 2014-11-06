@@ -11,6 +11,19 @@
  */
 
 /**
+ * Add wp_mail_from and wp_mail_from_name filters
+ * http://wordpress.stackexchange.com/questions/9102/why-wont-wp-mail-let-me-set-the-from-header-when-plain-old-php-mail-will
+ */
+add_filter('wp_mail_from','bhaa_wp_mail_from');
+function bhaa_wp_mail_from($content_type) {
+	return 'info@bhaa.com';
+}
+add_filter('wp_mail_from_name','bhaa_wp_mail_from_name');
+function bhaa_wp_mail_from_name($name) {
+	return 'Business Houses Athletic Association';
+}
+
+/**
  * Denis Mccaul - This is the code I added to add the sharing buttons to the bottom of pages
  */
 add_filter('avf_template_builder_content', 'avia_add_social_toolbar_template_builder', 10, 1);
