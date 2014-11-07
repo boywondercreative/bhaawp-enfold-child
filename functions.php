@@ -123,3 +123,4 @@ function bhaa_print_styles(){
  *	@link http://www.kriesi.at/documentation/enfold/turn-on-custom-css-field-for-all-alb-elements/
  */
 add_theme_support('avia_template_builder_custom_css');
+?>
