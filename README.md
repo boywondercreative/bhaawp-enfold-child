@@ -56,4 +56,8 @@ blue|012C52|#012C52
 yellow|FAF107|#FAF107
 red|dd3333|#dd3333
 
+Change Log
+==========
+- 2012.12.12 Add event-single.php template to the child theme.
+
 
