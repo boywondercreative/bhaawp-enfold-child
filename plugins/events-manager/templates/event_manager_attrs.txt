@@ -1,3 +1,6 @@
+
+http://wp-events-plugin.com/documentation/using-template-files/
+
 #_ATT{bhaa_organiser_name}{BHAA}
 #_ATT{bhaa_organiser_image}{http://bhaa.ie/wp-content/uploads/2014/09/bhaa-Business-Houses-Athletic-Association-Dublin-Logo-180x180.jpg}
 #_ATT{bhaa_event_image}{http://bhaa.ie/wp-content/uploads/2014/10/BHAA-Castleknock-College-Cross-Country-Race-Teachers.jpg}
