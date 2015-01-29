@@ -1,4 +1,7 @@
 <?php 
+/**
+ * The template for listing all future BHAA events.
+ */
 echo "[av_section color='main_color' custom_bg='#f7f7f7' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' min_height='' padding='default' shadow='no-shadow' id='' custom_class='']
 
 [av_notification title='' color='custom' border='solid' custom_bg='#dd3333' custom_font='#ffffff' size='normal']#_LOCATIONNAME #_EVENTNAME[/av_notification]
