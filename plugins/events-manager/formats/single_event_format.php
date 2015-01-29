@@ -5,16 +5,18 @@
 echo "<div eventid='#_EVENTID' postid='#_EVENTPOSTID'>
 {is_future}
 [av_one_full first]
-[av_heading tag='h1' padding='10' heading='#_LOCATIONNAME - #_EVENTNAME - #_EVENTDATES' color='' style='blockquote modern-quote' custom_font='' size='' subheading_active='' subheading_size='15' custom_class='']
+[av_heading tag='h1' padding='10' heading='#_LOCATIONNAME - #_EVENTNAME' color='' style='blockquote modern-quote' custom_font='' size='' subheading_active='' subheading_size='15' custom_class='']
 #_EVENTDATES at #_EVENTTIMES
 [/av_heading]
 [av_image src='#_ATT{bhaa_event_image}' attachment='' attachment_size='full' align='center' animation='no-animation' link='' target='' styling='' caption='' font_size='' appearance='' custom_class=''][/av_image]
-[/av_one_full]
-
-[av_section color='main_color' custom_bg='' src='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' video_mobile_disabled='' min_height='' padding='default' shadow='no-shadow' id='']
-[av_heading tag='h2' padding='20' heading='ONLINE ENTRY | RACE INFO | COURSE MAP | LOCATION MAP' color='' style='blockquote modern-quote' custom_font='' size='' subheading_active='' subheading_size='15' custom_class='']
-[/av_heading]
 		
+[av_heading heading='<strong>When:</strong> #_EVENTDATES at #_EVENTTIMES' tag='h2' style='blockquote modern-quote' size='' subheading_active='subheading_below' subheading_size='15' padding='20' color='' custom_font='' custom_class='']
+<strong>Start:</strong> #_ATT{bhaa_start_type}. <strong>Distance:</strong> #_ATT{bhaa_race_1} #_ATT{bhaa_race_2}
+[/av_heading]
+[/av_one_full]
+<!-- RACE INFO | ONLINE ENTRY | COURSE MAP | LOCATION MAP | <a href='./#standards'>STANDARDS</a> -->
+		
+[av_section color='main_color' custom_bg='' src='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' video_mobile_disabled='' min_height='' padding='default' shadow='no-shadow' id='']
 [av_one_half first]
 [av_notification title='' color='custom' border='' custom_bg='#37589b' custom_font='#ffffff' size='large' icon_select='no' icon='ue800' font='entypo-fontello' custom_class='']
 #_EVENTNAME
@@ -148,7 +150,7 @@ Google Map and Directions
 [/av_one_half]
 [/av_section]
 		
-[av_section color='main_color' custom_bg='#f7f7f7' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' min_height='' padding='default' shadow='no-shadow' id='' custom_class='']
+[av_section color='main_color' custom_bg='#f7f7f7' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' min_height='' padding='default' shadow='no-shadow' id='standards' custom_class='']
 [av_one_half first]
 [av_notification title='' color='custom' border='' custom_bg='#37589b' custom_font='#ffffff' size='large' icon_select='no' icon='ue800' font='entypo-fontello' custom_class='']
 Race Standards
