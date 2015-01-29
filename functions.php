@@ -11,6 +11,15 @@
  */
 
 /**
+ * Register event manager custom format filter files
+ */
+function bhaa_em_formats_filter( $array ){
+	$my_formats = array('dbem_event_list_item_format'); //the format you want to override, corresponding to file above.
+	return $array + $my_formats; //return the default array and your formats.
+}
+add_filter('em_formats_filter', 'bhaa_em_formats_filter', 1, 1);
+
+/**
  * Add wp_mail_from and wp_mail_from_name filters
  * http://wordpress.stackexchange.com/questions/9102/why-wont-wp-mail-let-me-set-the-from-header-when-plain-old-php-mail-will
  */
