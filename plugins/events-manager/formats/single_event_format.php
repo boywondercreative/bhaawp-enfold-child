@@ -63,11 +63,11 @@ Details
 [/av_toggle]
 [av_toggle title='Chip Timing' tags='']
 <span style='font-size: 14pt;'>Yes we have Chip Timing at all our races.</span><br/>
-<span style='font-size: 14pt;'>All Race Numbers are embedded with an electronic chip that records your race time.�</span><br/>
+<span style='font-size: 14pt;'>All Race Numbers are embedded with an electronic chip that records your race time.</span><br/>
 <img class='alignleft size-full wp-image-3937' src='http://bhaa.ie/wp-content/uploads/2014/10/Finish-Line-BHAA-Race.jpg' alt='Finish-Line-BHAA-Race' width='500' height='333' /><br/>
 <p class='none'><span style='font-size: 14pt;'><br class='none' />Your time starts when the race starts.</span></p><br/>
-<p class='none'><span style='font-size: 14pt;'>Your time stops when you pass over the Finish line timing mat. �</span></p><br/><br/>
-<p class='none'><span style='font-size: 14pt;'>Your time will be posted on our website Results page after the race.�</span></p>
+<p class='none'><span style='font-size: 14pt;'>Your time stops when you pass over the Finish line timing mat.</span></p><br/><br/>
+<p class='none'><span style='font-size: 14pt;'>Your time will be posted on our website Results page after the race.</span></p>
 [/av_toggle]
 [av_toggle title='Post Race Reception' tags='']
 <span style='font-size: 14pt;'>All BHAA races finish with a post race Reception and Prize giving on site with complimentary Tea, Coffee, Water and snacks such as our famous Brack!�</span>
@@ -91,50 +91,41 @@ There are also 15 Prizes at each event.
 Prizes
 [/av_toggle]
 [av_toggle title='Who Can Enter The Race?' tags='']
-<span style='font-size: 14pt;'>Male or Female Adults who�are 18 years of age or over.</span>
-
-<span style='font-size: 14pt;'><strong><span style='color: #ff0000;'><br class='none' />YOU DO�NOT</span></strong>�have to be a BHAA Member.</span>
-
-<span style='font-size: 14pt;'><strong><span style='color: #ff0000;'>YOU DO�NOT</span></strong>�have to be an employee of any Business.</span>
-
-<span style='font-size: 14pt;'><strong><span style='color: #ff0000;'>YOU DO�NOT</span></strong>�have to be a�member of any running club.�</span>
-
+<span style='font-size: 14pt;'>Male or Female Adults who are 18 years of age or over.</span>
+<span style='font-size: 14pt;'><strong><span style='color: #ff0000;'><br class='none' />YOU DO NOT</span></strong> have to be a BHAA Member.</span>
+<span style='font-size: 14pt;'><strong><span style='color: #ff0000;'>YOU DO NOT</span></strong> have to be an employee of any Business.</span>
+<span style='font-size: 14pt;'><strong><span style='color: #ff0000;'>YOU DO NOT</span></strong> have to be a member of any running club.</span>
 <br class='none' /><span style='font-size: 14pt;'>It's open to Everyone and all are very Welcome.</span>
-
 <span style='font-size: 14pt;'>BHAA Members pay �15 per annum and pay �10 per race they run in.</span>
-
 <span style='font-size: 14pt;'>Non BHAA Members pay �15 per race they run in.</span>
-
 <span style='font-size: 14pt;'>If you wish to join the BHAA for a year just click the button.</span>
-
 [av_button label='Join Now' link='page,2151' link_target='' color='red' custom_bg='#444444' custom_font='#ffffff' size='medium' position='left' icon_select='yes' icon='ue897' font='entypo-fontello' custom_class='']
 [/av_toggle]
 [av_toggle title='Race Entry Fee' tags='']
 <span style='font-size: 14pt;'>#_ATT{bhaa_cost_member}</span>
 <span style='font-size: 14pt;'>#_ATT{bhaa_cost_daymember}</span>
-<span style='font-size: 14pt;'>You can enter online on this page to the right or enter on the day before the race and pay by Cash.�</span>
-<span style='font-size: 14pt;'>This gets you Race Entry with Chip Timing on Race No. and FREE Post Race Refreshments!�</span>
-<span style='font-size: 14pt;'>BHAA Membership costs �15 for the year and gets you a �5 (33%) discount on all 25 races for one year.�</span>
+<span style='font-size: 14pt;'>You can enter online on this page to the right or enter on the day before the race and pay by Cash.</span>
+<span style='font-size: 14pt;'>This gets you Race Entry with Chip Timing on Race No. and FREE Post Race Refreshments!</span>
+<span style='font-size: 14pt;'>BHAA Membership costs 15e for the year and gets you a 5e (33%) discount on all 25 races for one year.</span>
 <span style='font-size: 14pt;'>To become a BHAA member just click this button;</span>
 <span style='font-size: 14pt;'>[av_button label='Join Now' link='page,2151' link_target='' color='red' custom_bg='#444444' custom_font='#ffffff' size='medium' position='left' icon_select='yes' icon='ue897' font='entypo-fontello' custom_class='']</span>
 [/av_toggle]
 [av_toggle title='Race Organiser Contact Details' tags='']
-<span style='font-size: 14pt;'><strong>Contact :</strong></span>
 <span style='font-size: 14pt;'><strong>Name:</strong>#_ATT{bhaa_contact_name}</span>
 <span style='font-size: 14pt;'><strong>Email:</strong>#_ATT{bhaa_contact_number}</span>
 <span style='font-size: 14pt;'><strong>Mobile:</strong>#_ATT{bhaa_contact_email}</span>
 [/av_toggle]
 [av_toggle title='Facilities' tags='']
 <span style='font-size: 14pt;'>There are Changing, Shower and Toilet facilites at all BHAA events.</span>
-<span style='font-size: 14pt;'>The BHAA accept no responsibility for belongings or possessions left unattended on site during the race.�</span>
+<span style='font-size: 14pt;'>The BHAA accept no responsibility for belongings or possessions left unattended on site during the race.</span>
 [/av_toggle]
 [av_toggle title='Bag Drop?' tags='']
 <span style='font-size: 14pt;'>The BHAA does not offer an official Bag Drop.</span>
 <span style='font-size: 14pt;'>Participants often leave a bag at the registration hall which is staffed for the entire race proceedings.</span>
-<span style='font-size: 14pt;'>The BHAA accept no responsibility for belongings or possessions left unattended on site during the race.�</span>
+<span style='font-size: 14pt;'>The BHAA accept no responsibility for belongings or possessions left unattended on site during the race.</span>
 [/av_toggle]
 [av_toggle title='Water Stations' tags='']
-<span style='font-size: 14pt;'>The BHAA races do not operate water stations as they are not required for our short distance races.�</span>
+<span style='font-size: 14pt;'>The BHAA races do not operate water stations as they are not required for our short distance races.</span>
 [/av_toggle]
 [/av_toggle_container]
 [/av_one_half]
