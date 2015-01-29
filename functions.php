@@ -14,7 +14,7 @@
  * Register event manager custom format filter files
  */
 function bhaa_em_formats_filter( $array ){
-	$my_formats = array('dbem_event_list_item_format'); //the format you want to override, corresponding to file above.
+	$my_formats = array('dbem_event_list_item_format','dbem_single_event_format'); //the format you want to override, corresponding to file above.
 	return $array + $my_formats; //return the default array and your formats.
 }
 add_filter('em_formats_filter', 'bhaa_em_formats_filter', 1, 1);
