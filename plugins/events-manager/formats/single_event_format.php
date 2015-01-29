@@ -111,7 +111,7 @@ Prizes
 
 [av_one_half]
 [av_notification title='' color='custom' border='solid' custom_bg='#6fa640' custom_font='#ffffff' size='large' icon_select='no' icon='ue800' font='entypo-fontello' custom_class='']
-ONLINE ENTRY FOR CASTLEKNOCK
+ONLINE ENTRY
 [/av_notification]
 [av_textblock custom_class='']
 [event event=150]#_BOOKINGFORM[/event]
