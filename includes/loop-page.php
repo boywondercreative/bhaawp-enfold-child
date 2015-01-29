@@ -9,14 +9,14 @@ if (have_posts()) :
 	while (have_posts()) : the_post();
 ?>
 
-		<article class='post-entry post-entry-type-page <?php echo $post_class.' '. ); ?>' <?php avia_markup_helper(array('context' => 'entry')); ?>>
+		<article class='post-entry post-entry-type-page <?php echo $post_class; ?>' <?php avia_markup_helper(array('context' => 'entry')); ?>>
 
 			<div class="entry-content-wrapper clearfix">
                 <?php
                 echo '<header class="entry-content-header">';
                     $thumb = get_the_post_thumbnail(get_the_ID(), $avia_config['size']);
                     // don't show the event image
-                    if($thumb && get_post_type( get_the_ID()!='event')
+                    if($thumb && get_post_type(get_the_ID())!='event')
                     	echo "<div class='page-thumb'>{$thumb}</div>";
                 echo '</header>';
                 //display the actual post content
