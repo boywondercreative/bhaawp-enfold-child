@@ -8,9 +8,8 @@ global $EM_Event;
 echo $EM_Event->output(
 "<div eventid='#_EVENTID' postid='#_EVENTPOSTID'>
 {is_future}
-POC
 [av_one_full first]
-[av_heading tag='h1' padding='10' heading='#_LOCATIONNAME - #_EVENTNAME' color='' style='blockquote modern-quote' custom_font='' size='' subheading_active='' subheading_size='15' custom_class='']
+[av_heading tag='h1' padding='10' heading='#_LOCATIONNAME - #_EVENTNAME - #_EVENTDATES' color='' style='blockquote modern-quote' custom_font='' size='' subheading_active='' subheading_size='15' custom_class='']
 #_EVENTDATES at #_EVENTTIMES
 [/av_heading]
 [av_image src='#_ATT{bhaa_event_image}' attachment='' attachment_size='full' align='center' animation='no-animation' link='' target='' styling='' caption='' font_size='' appearance='' custom_class=''][/av_image]
@@ -180,10 +179,12 @@ Google Map and Directions
 
 {is_past}
 [av_one_full first]
-[av_icon_box icon='ue81e' font='entypo-fontello' position='left' title='#_LOCATIONNAME - #_EVENTNAME' link='' linktarget='' linkelement='' custom_class='']
-#_EVENTDATES #_EVENTEXCERPT
-[/av_icon_box]
+[av_heading tag='h1' padding='10' heading='#_LOCATIONNAME - #_EVENTNAME - #_EVENTDATES' color='' style='blockquote modern-quote' custom_font='' size='' subheading_active='' subheading_size='15' custom_class='']
+#_EVENTDATES at #_EVENTTIMES
+[/av_heading]
+[av_image src='#_ATT{bhaa_event_image}' attachment='' attachment_size='full' align='center' animation='no-animation' link='' target='' styling='' caption='' font_size='' appearance='' custom_class=''][/av_image]
 [/av_one_full]
+
 [av_one_full first]
 [av_tab_container position='top_tab' boxed='border_tabs' initial='1' custom_class='']
 [av_tab title='Results' icon_select='yes' icon='ue84b' font='entypo-fontello']
