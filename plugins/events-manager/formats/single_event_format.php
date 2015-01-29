@@ -14,10 +14,40 @@ echo "<div eventid='#_EVENTID' postid='#_EVENTPOSTID'>
 [av_section color='main_color' custom_bg='' src='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' video_mobile_disabled='' min_height='' padding='default' shadow='no-shadow' id='']
 [av_heading tag='h2' padding='20' heading='ONLINE ENTRY | RACE INFO | COURSE MAP | LOCATION MAP' color='' style='blockquote modern-quote' custom_font='' size='' subheading_active='' subheading_size='15' custom_class='']
 [/av_heading]
+		
+[av_one_half first]
+[av_notification title='' color='custom' border='' custom_bg='#37589b' custom_font='#ffffff' size='large' icon_select='no' icon='ue800' font='entypo-fontello' custom_class='']
+#_EVENTNAME
+[/av_notification]
+
+[av_textblock custom_class='']
+#_EVENTIMAGE
+[/av_textblock]
+
+[av_hr class='default' height='50' shadow='no-shadow' position='center']
+
+[av_textblock custom_class='']
+<span style='font-size: 14pt;'>#_EVENTNOTES</span>
+[/av_textblock]
+
+[/av_one_half]
+
+[av_one_half]
+[av_notification title='' color='custom' border='solid' custom_bg='#6fa640' custom_font='#ffffff' size='large' icon_select='no' icon='ue800' font='entypo-fontello' custom_class='']
+ONLINE ENTRY
+[/av_notification]
+[av_textblock custom_class='']
+[event event=150]#_BOOKINGFORM[/event]
+[/av_textblock]
+			
+[/av_one_half]
+[/av_section]
+
+[av_section color='main_color' custom_bg='#f7f7f7' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' min_height='' padding='default' shadow='no-shadow' id='' custom_class='']
 
 [av_one_half first]
 [av_notification title='' color='custom' border='solid' custom_bg='#ff3030' custom_font='#ffffff' size='large' icon_select='no' icon='ue800' font='entypo-fontello' custom_class='']
-CLICK ON ANY HEADING TO OPEN INFO.
+Details
 [/av_notification]
 
 [av_toggle_container initial='1' mode='accordion' sort='' custom_class='']
@@ -110,45 +140,6 @@ Prizes
 [/av_one_half]
 
 [av_one_half]
-[av_notification title='' color='custom' border='solid' custom_bg='#6fa640' custom_font='#ffffff' size='large' icon_select='no' icon='ue800' font='entypo-fontello' custom_class='']
-ONLINE ENTRY
-[/av_notification]
-[av_textblock custom_class='']
-[event event=150]#_BOOKINGFORM[/event]
-[/av_textblock]
-		
-[av_notification title='' color='custom' border='' custom_bg='#37589b' custom_font='#ffffff' size='large' icon_select='no' icon='ue800' font='entypo-fontello' custom_class='']
-Race Standards
-[/av_notification]
-[av_textblock custom_class='']
-The BHAA stardard times for these races
-#_BHAASTANDARDS
-<a href='http://bhaa.ie/bhaa/standards'>Read more about BHAA standards.</a>
-[/av_textblock]
-			
-[/av_one_half]
-[/av_section]
-
-[av_section color='main_color' custom_bg='#f7f7f7' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' min_height='' padding='default' shadow='no-shadow' id='' custom_class='']
-
-[av_one_half first]
-[av_notification title='' color='custom' border='' custom_bg='#37589b' custom_font='#ffffff' size='large' icon_select='no' icon='ue800' font='entypo-fontello' custom_class='']
-Race Details
-[/av_notification]
-
-[av_textblock custom_class='']
-#_EVENTIMAGE
-[/av_textblock]
-
-[av_hr class='default' height='50' shadow='no-shadow' position='center']
-
-[av_textblock custom_class='']
-<span style='font-size: 14pt;'>#_EVENTNOTES</span>
-[/av_textblock]
-
-[/av_one_half]
-
-[av_one_half]
 [av_notification title='' color='custom' border='' custom_bg='#fc9b00' custom_font='#ffffff' size='large' icon_select='no' icon='ue800' font='entypo-fontello' custom_class='']
 Google Map and Directions
 [/av_notification]
@@ -164,13 +155,26 @@ Google Map and Directions
 #_LOCATIONNOTES
 [/av_textblock]
 [/av_one_half]
-
+[/av_section]
+		
+[av_section color='main_color' custom_bg='#f7f7f7' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' min_height='' padding='default' shadow='no-shadow' id='' custom_class='']
+[av_one_half first]
+[av_notification title='' color='custom' border='' custom_bg='#37589b' custom_font='#ffffff' size='large' icon_select='no' icon='ue800' font='entypo-fontello' custom_class='']
+Race Standards
+[/av_notification]
+[av_textblock custom_class='']
+The BHAA stardard times for these races
+#_BHAASTANDARDS
+<a href='http://bhaa.ie/bhaa/standards'>Read more about BHAA standards.</a>
+[/av_textblock]
+[/av_one_half]
+[/av_section]
+			
 [av_one_full first]
 [av_notification title='' color='custom' border='solid' custom_bg='#012C52' custom_font='#ffffff' size='normal']Comments[/av_notification]
 [av_comments_list]
 [/av_one_full]
 
-[/av_section]
 {/is_future}
 
 {is_past}
