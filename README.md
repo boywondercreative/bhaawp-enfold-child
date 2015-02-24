@@ -55,6 +55,44 @@ Name|Code|Colour
 blue|012C52|#012C52
 yellow|FAF107|#FAF107
 red|dd3333|#dd3333
+white|ffffff|#ffffff
+
+## Photoshop Notes
+File -> Save for Web
+- 2-up
+- jpeg
+- Quality = 50
+- Image size = 1210 * 200
+
+Photoshop 
+Here are instructions on how to resize and compress Image file sizes in Photoshop.
+
+Open Photoshop
+File – Open – Navigate to Image on your computer and select.
+When Image open in Photoshop click on the Crop Tool. 
+Click on ratio at the top
+Enter the pixel values you wish to crop the Image to Wide first by Height second
+Click in the Image and move the image and drag the sizers until happy with image
+Click on Correct icon at top
+File- Save for Web
+Right hand side – Select Jpeg
+Change Quality to between 60 and 80 depending on original quality of Image and size
+Middle right – Change width to the same value you cropped the Image width to previously
+The height will automatically change 
+Click save
+Name the image with something descriptive and save to your computer.
+
+Upload the Image to Wordpress website
+When uploaded copy the Title to the Alt Description
+Go to News Post.
+Bottom right – Set Featured Image
+Choose the Image you just uploaded – full size.
+Update the News Post to publish.
+355px x 225px for Featured Images of News Posts.
+
+
+## Wordpress What Page
+![](http://codex.wordpress.org/images/1/18/Template_Hierarchy.png)
 
 Change Log
 ==========
