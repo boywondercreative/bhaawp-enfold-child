@@ -96,6 +96,7 @@ Update the News Post to publish.
 
 Change Log
 ==========
+- 2015.02.24 Update the past event layout to have the comments at the bottom.
 - 2012.12.12 Add event-single.php template to the child theme.
 
 
