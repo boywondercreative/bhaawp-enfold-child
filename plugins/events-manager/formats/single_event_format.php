@@ -3,7 +3,6 @@
  * The single event template
  */
 echo "<div eventid='#_EVENTID' postid='#_EVENTPOSTID'>
-{is_future}
 [av_one_full first]
 [av_heading tag='h1' padding='10' heading='#_LOCATIONNAME - #_EVENTNAME' color='' style='blockquote modern-quote' custom_font='' size='' subheading_active='' subheading_size='15' custom_class='']
 #_EVENTDATES at #_EVENTTIMES
@@ -14,6 +13,7 @@ echo "<div eventid='#_EVENTID' postid='#_EVENTPOSTID'>
 <strong>Start:</strong> #_ATT{bhaa_start_type}. <strong>Distance:</strong> #_ATT{bhaa_race_1} #_ATT{bhaa_race_2}
 [/av_heading]
 [/av_one_full]
+{is_future}
 <!-- RACE INFO | ONLINE ENTRY | COURSE MAP | LOCATION MAP | <a href='./#standards'>STANDARDS</a> -->
 		
 [av_section color='main_color' custom_bg='' src='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' video_mobile_disabled='' min_height='' padding='default' shadow='no-shadow' id='']
@@ -167,17 +167,9 @@ The BHAA stardard times for these races
 [av_notification title='' color='custom' border='solid' custom_bg='#012C52' custom_font='#ffffff' size='normal']Comments[/av_notification]
 [av_comments_list]
 [/av_one_full]
-
 {/is_future}
 
 {is_past}
-[av_one_full first]
-[av_heading tag='h1' padding='10' heading='#_LOCATIONNAME - #_EVENTNAME - #_EVENTDATES' color='' style='blockquote modern-quote' custom_font='' size='' subheading_active='' subheading_size='15' custom_class='']
-#_EVENTDATES at #_EVENTTIMES
-[/av_heading]
-[av_image src='#_ATT{bhaa_event_image}' attachment='' attachment_size='full' align='center' animation='no-animation' link='' target='' styling='' caption='' font_size='' appearance='' custom_class=''][/av_image]
-[/av_one_full]
-
 [av_one_full first]
 [av_tab_container position='top_tab' boxed='border_tabs' initial='1' custom_class='']
 [av_tab title='Results' icon_select='yes' icon='ue84b' font='entypo-fontello']
@@ -186,11 +178,12 @@ The BHAA stardard times for these races
 [av_tab title='Team Results' icon_select='yes' icon='ue84c' font='entypo-fontello']
 #_BHAATEAMRESULTS
 [/av_tab]
-[av_tab title='Comments' icon_select='no']
+[/av_tab_container]
+[/av_one_full]
+
+[av_one_full first]
 [av_notification title='' color='custom' border='solid' custom_bg='#012C52' custom_font='#ffffff' size='normal']Comments[/av_notification]
 [av_comments_list]
-[/av_tab]
-[/av_tab_container]
 [/av_one_full]
 {/is_past}
 </div>";
