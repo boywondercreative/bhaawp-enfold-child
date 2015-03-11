@@ -11,6 +11,17 @@
  */
 
 /**
+ * Disable the ping back functions
+-- http://fooplugins.com/prevent-wordpress-pingback-ddos/
+-- http://wptavern.com/how-to-prevent-wordpress-from-participating-in-pingback-denial-of-service-attacks
+ */
+function remove_xmlrpc_pingback_ping( $methods ) {
+   unset( $methods['pingback.ping'] );
+   return $methods;
+} ;
+add_filter('xmlrpc_methods','remove_xmlrpc_pingback_ping',1,1);
+
+/**
  * Register event manager custom format filter files
  */
 function bhaa_em_formats_filter( $array ){
