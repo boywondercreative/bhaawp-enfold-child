@@ -11,6 +11,34 @@
  */
 
 /**
+ * 
+ * http://stackoverflow.com/questions/9326315/wordpress-change-default-display-name-publicy-as-for-all-existing-users
+ * 
+ * http://aubreypwd.com/wordpress-change-default-display-name-publicy-as-for-all-existing-users-2/
+ */
+//Sets the user's display name (always) to first name last name, when it's avail.
+//add_action ('admin_head','make_display_name_f_name_last_name');
+function make_display_name_f_name_last_name(){
+
+	$users = get_users(array('fields'=>'all'));
+
+	foreach($users as $user){
+		$user = get_userdata($user->ID);
+
+		$display_name = $user->first_name . " " . $user->last_name;
+
+		if($display_name!=' ') 
+			wp_update_user( array ('ID' => $user->ID, 'display_name' => $display_name) );
+		else 
+			wp_update_user( array ('ID' => $user->ID, 'display_name' => $user->display_login) );
+
+		if($user->display_name == '')
+			wp_update_user( array ('ID' => $user->ID, 'display_name' => $user->display_login) );
+	}
+}
+
+
+/**
  * Disable the ping back functions
 -- http://fooplugins.com/prevent-wordpress-pingback-ddos/
 -- http://wptavern.com/how-to-prevent-wordpress-from-participating-in-pingback-denial-of-service-attacks
@@ -45,11 +73,19 @@ function bhaa_wp_mail_from_name($name) {
 
 /**
  * Denis Mccaul - This is the code I added to add the sharing buttons to the bottom of pages
+ * http://www.kriesi.at/support/topic/share-snipet-placement-after-update-to-3-1-1/
  */
+add_action('ava_after_content', 'avia_add_social_toolbars', 10, 2);
+function avia_add_social_toolbars($id = "", $context = "") {
+	if($context == "page" || $context == "single-portfolio" || $context == "product")
+	avia_social_share_links();
+}
+
 add_filter('avf_template_builder_content', 'avia_add_social_toolbar_template_builder', 10, 1);
 function avia_add_social_toolbar_template_builder($content = "") {
-	$content .= avia_social_share_links(array(), false);
-	$content .= '<div style="height:1px; margin-top:50px;" class="hr"></div>';
+	$content .= '<div id="custom_share_box" class="avia-section main_color container_wrap"><div class="container">';
+	$content .= avia_social_share_links(array(), '', '', false);
+	$content .= '</div>';
 	return $content;
 }
 
@@ -137,6 +173,34 @@ function bhaa_print_styles(){
 	);
 }
 //add_action( 'wp_enqueue_scripts', 'bhaa_print_styles' );
+
+// http://www.kriesi.at/documentation/enfold/use-the-layout-builder-with-any-post-type/
+// http://www.kriesi.at/support/topic/enable-avia-layout-builder-on-custom-post-types/
+function bhaa_add_builder_to_posttype($boxes) {
+
+	$boxes = array(
+		array( 'title' =>__('Avia Layout Builder','avia_framework' ), 'id'=>'avia_builder',
+			'page'=>array('page','post','event','house','league'), 'context'=>'normal', 'priority'=>'high', 'expandable'=>true ),
+		array( 'title' =>__('Layout','avia_framework' ), 'id'=>'layout',
+			'page'=>array('page','post','event','house','league'), 'context'=>'side', 'priority'=>'low'),
+		array( 'title' =>__('Additional Portfolio Settings','avia_framework' ), 'id'=>'preview', 'page'=>array('portfolio'), 'context'=>'normal', 'priority'=>'high' ),
+		array( 'title' =>__('Breadcrumb Hierarchy','avia_framework' ), 'id'=>'hierarchy', 'page'=>array('portfolio'), 'context'=>'side', 'priority'=>'low'),
+	);
+	return $boxes;
+}
+add_filter('avf_builder_boxes', 'bhaa_add_builder_to_posttype');
+
+//http://msyk.es/blog/prevent-jquery-wordpress-theme/
+//wp_deregister_script('jquery');
+//wp_register_script('jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js', false, '1.11.3');
+//wp_enqueue_script('jquery');
+
+// http://www.kriesi.at/support/topic/my-datepicker-isnt-working-so-i-cant-enter-or-edit-information-eventmanager/
+//function avia_editor_fix_style() {
+//	echo '<style type="text/css">body>.ui-widget-overlay{z-index: 1000 !important;}</style>';
+//}
+//
+//add_action('admin_head', 'avia_editor_fix_style');
 
 /**
  *	Turn on Custom CSS Class field for all Avia Layout Builder elements
