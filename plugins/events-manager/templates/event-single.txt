@@ -38,14 +38,14 @@ CLICK ON ANY HEADING TO OPEN INFO.
 [av_toggle title='Chip Timing' tags='']
 <span style='font-size: 14pt;'>Yes we have Chip Timing at all our races.</span><br/>
 <span style='font-size: 14pt;'>All Race Numbers are embedded with an electronic chip that records your race time.�</span><br/>
-<img class='alignleft size-full wp-image-3937' src='http://bhaa.ie/wp-content/uploads/2014/10/Finish-Line-BHAA-Race.jpg' alt='Finish-Line-BHAA-Race' width='500' height='333' /><br/>
+<img class='alignleft size-full wp-image-3937' src='https://bhaa.ie/wp-content/uploads/2014/10/Finish-Line-BHAA-Race.jpg' alt='Finish-Line-BHAA-Race' width='500' height='333' /><br/>
 <p class='none'><span style='font-size: 14pt;'><br class='none' />Your time starts when the race starts.</span></p><br/>
 <p class='none'><span style='font-size: 14pt;'>Your time stops when you pass over the Finish line timing mat. �</span></p><br/><br/>
 <p class='none'><span style='font-size: 14pt;'>Your time will be posted on our website Results page after the race.�</span></p>
 [/av_toggle]
 [av_toggle title='Post Race Reception' tags='']
 <span style='font-size: 14pt;'>All BHAA races finish with a post race Reception and Prize giving on site with complimentary Tea, Coffee, Water and snacks such as our famous Brack!�</span>
-<img class='alignleft size-full wp-image-3940' src='http://bhaa.ie/wp-content/uploads/2014/10/Refreshments.jpg' alt='BHAA-Post-Race-Refreshments' width='500' height='333' />
+<img class='alignleft size-full wp-image-3940' src='https://bhaa.ie/wp-content/uploads/2014/10/Refreshments.jpg' alt='BHAA-Post-Race-Refreshments' width='500' height='333' />
 [/av_toggle]
 [av_toggle title='Prizes + Prize Giving' tags='']
 There are prizes for all Categories at the race.
@@ -60,7 +60,7 @@ Team Prizes
 
 There are also 15 Prizes at each event.
 
-<img class='alignleft size-full wp-image-3941' src='http://bhaa.ie/wp-content/uploads/2014/10/Prizes-BHAA-Races.jpg' alt='Prizes-BHAA-Races' width='500' height='500' />
+<img class='alignleft size-full wp-image-3941' src='https://bhaa.ie/wp-content/uploads/2014/10/Prizes-BHAA-Races.jpg' alt='Prizes-BHAA-Races' width='500' height='500' />
 
 Prizes
 [/av_toggle]
@@ -127,7 +127,7 @@ Race Standards
 [av_textblock custom_class='']
 The BHAA stardard times for these races
 #_BHAASTANDARDS
-<a href='http://bhaa.ie/bhaa/standards'>Read more about BHAA standards.</a>
+<a href='https://bhaa.ie/bhaa/standards'>Read more about BHAA standards.</a>
 [/av_textblock]
 			
 [/av_one_half]
