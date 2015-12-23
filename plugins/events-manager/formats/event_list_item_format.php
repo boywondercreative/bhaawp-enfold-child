@@ -25,7 +25,7 @@ echo "[av_section color='main_color' custom_bg='#f7f7f7' src='' attachment='' at
 <span style='font-size: 14pt;'><strong>#_LOCATIONNAME</strong></span><br/>
 <span style='font-size: 14pt;'><strong>#_LOCATIONTOWN</strong></span>
 [/av_textblock]
-[av_button label='Race Info Page' link='#_EVENTURL' link_target='_blank' color='theme-color' custom_bg='#444444' custom_font='#ffffff' size='small' position='left' icon_select='yes' icon='ue897' font='entypo-fontello' custom_class='']
+[av_button label='Race Info Page' link='#_EVENTURL' link_target='' color='theme-color' custom_bg='#444444' custom_font='#ffffff' size='small' position='left' icon_select='yes' icon='ue897' font='entypo-fontello' custom_class='']
 [/av_one_fifth]
 
 [av_one_fifth]
