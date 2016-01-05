@@ -210,6 +210,7 @@ add_theme_support('avia_template_builder_custom_css');
 
 function bhaa_em_register_new_user_pre($user_data) {
 	error_log('bhaatheme_em_register_new_user_pre='.json_encode($user_data));
+	return $user_data;
 }
 
 function bhaa_em_registration_errors($errors, $sanitized_user_login = 'sanitized_user_login', $user_email = 'user_email' ){
@@ -221,9 +222,9 @@ function bhaa_em_registration_errors($errors, $sanitized_user_login = 'sanitized
 
 function bhaa_em_register_new_user($user_id) {
 	error_log('bhaatheme_em_register_new_user='.$user_id);
+	return $user_id;
 }
-add_filter('em_register_new_user_pre','bhaa_em_register_new_user_pre');
-add_filter('em_registration_errors','bhaa_em_registration_errors');
-add_filter('em_register_new_use','bhaa_em_register_new_use');
-
+//add_filter('em_register_new_user_pre','bhaa_em_register_new_user_pre');
+//add_filter('em_registration_errors','bhaa_em_registration_errors');
+//add_filter('em_register_new_use','bhaa_em_register_new_use');
 ?>
