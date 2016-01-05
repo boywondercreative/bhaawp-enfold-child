@@ -17,12 +17,12 @@ echo "<div eventid='#_EVENTID' postid='#_EVENTPOSTID'>
 <!-- RACE INFO | ONLINE ENTRY | COURSE MAP | LOCATION MAP | <a href='./#standards'>STANDARDS</a> -->
 		
 [av_section color='main_color' custom_bg='' src='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' video_mobile_disabled='' min_height='' padding='default' shadow='no-shadow' id='']
-[av_one_half first]
+[av_one_full]
 [av_notification title='' color='custom' border='' custom_bg='#37589b' custom_font='#ffffff' size='large' icon_select='no' icon='ue800' font='entypo-fontello' custom_class='']
 #_EVENTNAME
 [/av_notification]
 
-[av_textblock custom_class='']
+[av_textblock custom_class='' position='center']
 #_EVENTIMAGE
 [/av_textblock]
 
@@ -32,9 +32,11 @@ echo "<div eventid='#_EVENTID' postid='#_EVENTPOSTID'>
 <span style='font-size: 14pt;'>#_EVENTNOTES</span>
 [/av_textblock]
 
-[/av_one_half]
+[/av_one_full]
+[/av_section]
 
-[av_one_half]
+[av_section color='main_color' custom_bg='' src='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' video_mobile_disabled='' min_height='' padding='default' shadow='no-shadow' id='']
+[av_one_full]
 [av_notification title='' color='custom' border='solid' custom_bg='#6fa640' custom_font='#ffffff' size='large' icon_select='no' icon='ue800' font='entypo-fontello' custom_class='']
 ONLINE ENTRY
 [/av_notification]
@@ -42,12 +44,30 @@ ONLINE ENTRY
 [event event=150]#_BOOKINGFORM[/event]
 [/av_textblock]
 			
-[/av_one_half]
+[/av_one_full]
 [/av_section]
 
 [av_section color='main_color' custom_bg='#f7f7f7' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' min_height='' padding='default' shadow='no-shadow' id='' custom_class='']
+[av_one_full]
+[av_notification title='' color='custom' border='' custom_bg='#fc9b00' custom_font='#ffffff' size='large' icon_select='no' icon='ue800' font='entypo-fontello' custom_class='']
+Google Map and Directions
+[/av_notification]
 
-[av_one_half first]
+[av_textblock custom_class='']
+<span style='font-size: 14pt;'>#_LOCATIONMAP</span>
+
+[/av_textblock]
+
+[av_textblock custom_class='']
+<strong>Location</strong> : #_LOCATIONNAME
+#_LOCATIONFULLBR
+#_LOCATIONNOTES
+[/av_textblock]
+[/av_one_full]
+[/av_section]
+
+[av_section color='main_color' custom_bg='#f7f7f7' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' min_height='' padding='default' shadow='no-shadow' id='' custom_class='']
+[av_one_full]
 [av_notification title='' color='custom' border='solid' custom_bg='#ff3030' custom_font='#ffffff' size='large' icon_select='no' icon='ue800' font='entypo-fontello' custom_class='']
 Details
 [/av_notification]
@@ -99,7 +119,8 @@ Prizes
 <span style='font-size: 14pt;'><strong><span style='color: #ff0000;'>YOU DO NOT</span></strong> have to be a member of any running club.</span>
 <br class='none' /><span style='font-size: 14pt;'>It's open to Everyone and all are very Welcome.</span>
 <span style='font-size: 14pt;'>BHAA Members pay �15 per annum and pay �10 per race they run in.</span>
-<span style='font-size: 14pt;'>Non BHAA Members pay �15 per race they run in.</span>
+<span style='font-size: 14pt;'>Non BHAA Online Members pay �15 per race when they run in.</span>
+<span style='font-size: 14pt;'>On the day Registration costs �20 per race for Non BHAA Members.</span>
 <span style='font-size: 14pt;'>If you wish to join the BHAA for a year just click the button.</span>
 [av_button label='Join Now' link='page,2151' link_target='' color='red' custom_bg='#444444' custom_font='#ffffff' size='medium' position='left' icon_select='yes' icon='ue897' font='entypo-fontello' custom_class='']
 [/av_toggle]
@@ -130,28 +151,11 @@ Prizes
 <span style='font-size: 14pt;'>The BHAA races do not operate water stations as they are not required for our short distance races.</span>
 [/av_toggle]
 [/av_toggle_container]
-[/av_one_half]
-
-[av_one_half]
-[av_notification title='' color='custom' border='' custom_bg='#fc9b00' custom_font='#ffffff' size='large' icon_select='no' icon='ue800' font='entypo-fontello' custom_class='']
-Google Map and Directions
-[/av_notification]
-
-[av_textblock custom_class='']
-<span style='font-size: 14pt;'>#_LOCATIONMAP</span>
-
-[/av_textblock]
-
-[av_textblock custom_class='']
-<strong>Location</strong> : #_LOCATIONNAME
-#_LOCATIONFULLBR
-#_LOCATIONNOTES
-[/av_textblock]
-[/av_one_half]
+[/av_one_full]
 [/av_section]
-		
+
 [av_section color='main_color' custom_bg='#f7f7f7' src='' attachment='' attachment_size='' attach='scroll' position='top left' repeat='no-repeat' video='' video_ratio='16:9' min_height='' padding='default' shadow='no-shadow' id='standards' custom_class='']
-[av_one_half first]
+[av_one_full first]
 [av_notification title='' color='custom' border='' custom_bg='#37589b' custom_font='#ffffff' size='large' icon_select='no' icon='ue800' font='entypo-fontello' custom_class='']
 Race Standards
 [/av_notification]
@@ -160,7 +164,7 @@ The BHAA stardard times for these races
 #_BHAASTANDARDS
 <a href='https://demo.bhaa.ie/bhaa/standards'>Read more about BHAA standards.</a>
 [/av_textblock]
-[/av_one_half]
+[/av_one_full]
 [/av_section]
 			
 [av_one_full first]
