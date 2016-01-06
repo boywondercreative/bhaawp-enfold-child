@@ -4,8 +4,9 @@ http://wp-events-plugin.com/documentation/using-template-files/
 #_ATT{bhaa_organiser_name}{BHAA}
 #_ATT{bhaa_organiser_image}{https://bhaa.ie/wp-content/uploads/2014/09/bhaa-Business-Houses-Athletic-Association-Dublin-Logo-180x180.jpg}
 #_ATT{bhaa_event_image}{https://bhaa.ie/wp-content/uploads/2014/10/BHAA-Castleknock-College-Cross-Country-Race-Teachers.jpg}
-#_ATT{bhaa_cost_member}{BHAA Members 10e}
-#_ATT{bhaa_cost_daymember}{Day Member 15e}
+#_ATT{bhaa_cost_member}{BHAA Members 10�}
+#_ATT{bhaa_cost_daymember}{Online Day Member 15�}
+#_ATT{bhaa_cost_daymember_offline}{Offline Day Member 20�}
 #_ATT{bhaa_start_type}{Combined Start|Separate Starts}
 #_ATT{bhaa_race_1}{X km/miles}
 #_ATT{bhaa_race_2}

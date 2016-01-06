@@ -118,10 +118,10 @@ Prizes
 <span style='font-size: 14pt;'><strong><span style='color: #ff0000;'>YOU DO NOT</span></strong> have to be an employee of any Business.</span>
 <span style='font-size: 14pt;'><strong><span style='color: #ff0000;'>YOU DO NOT</span></strong> have to be a member of any running club.</span>
 <br class='none' /><span style='font-size: 14pt;'>It's open to Everyone and all are very Welcome.</span>
-<span style='font-size: 14pt;'>BHAA Members pay �15 per annum and pay �10 per race they run in.</span>
-<span style='font-size: 14pt;'>Non BHAA Online Members pay �15 per race when they run in.</span>
-<span style='font-size: 14pt;'>On the day Registration costs �20 per race for Non BHAA Members.</span>
-<span style='font-size: 14pt;'>If you wish to join the BHAA for a year just click the button.</span>
+<span style='font-size: 14pt;'>#_ATT{bhaa_cost_member}{BHAA Members 10�} per race they run in.</span>
+<span style='font-size: 14pt;'>#_ATT{bhaa_cost_daymember}{Online Day Member 15�} per race when they pre-register and run in.</span>
+<span style='font-size: 14pt;'>On the day Registration costs #_ATT{bhaa_cost_daymember_offline}{Offline Day Member 20�} per race.</span>
+<span style='font-size: 14pt;'>Annual membership costs 15�, if you wish to join the BHAA for a year just click the button.</span>
 [av_button label='Join Now' link='page,2151' link_target='' color='red' custom_bg='#444444' custom_font='#ffffff' size='medium' position='left' icon_select='yes' icon='ue897' font='entypo-fontello' custom_class='']
 [/av_toggle]
 [av_toggle title='Race Entry Fee' tags='']

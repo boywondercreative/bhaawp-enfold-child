@@ -32,8 +32,9 @@ echo "[av_section color='main_color' custom_bg='#f7f7f7' src='' attachment='' at
 [av_notification title='' color='custom' border='solid' custom_bg='#012C52' custom_font='#ffffff' size='normal']Type|Cost[/av_notification]
 [av_textblock custom_class='']
 <span style='font-size: 14pt;'>#_CATEGORYNAME</span><br/>
-<span style='font-size: 14pt;'>#_ATT{bhaa_cost_member}</span><br/>
-<span style='font-size: 14pt;'>#_ATT{bhaa_cost_daymember}</span>
+<span style='font-size: 14pt;'>#_ATT{bhaa_cost_member}{BHAA Members 10�}</span><br/>
+<span style='font-size: 14pt;'>#_ATT{bhaa_cost_daymember}{Online Day Member 15�}</span><br/>
+<span style='font-size: 14pt;'>#_ATT{bhaa_cost_daymember_offline}{Offline Day Member 20�}</span>
 [/av_textblock]
 [/av_one_fifth]
 
