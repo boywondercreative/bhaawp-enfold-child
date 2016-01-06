@@ -118,18 +118,19 @@ Prizes
 <span style='font-size: 14pt;'><strong><span style='color: #ff0000;'>YOU DO NOT</span></strong> have to be an employee of any Business.</span>
 <span style='font-size: 14pt;'><strong><span style='color: #ff0000;'>YOU DO NOT</span></strong> have to be a member of any running club.</span>
 <br class='none' /><span style='font-size: 14pt;'>It's open to Everyone and all are very Welcome.</span>
-<span style='font-size: 14pt;'>#_ATT{bhaa_cost_member}{BHAA Members 10�} per race they run in.</span>
-<span style='font-size: 14pt;'>#_ATT{bhaa_cost_daymember}{Online Day Member 15�} per race when they pre-register and run in.</span>
-<span style='font-size: 14pt;'>On the day Registration costs #_ATT{bhaa_cost_daymember_offline}{Offline Day Member 20�} per race.</span>
-<span style='font-size: 14pt;'>Annual membership costs 15�, if you wish to join the BHAA for a year just click the button.</span>
+<span style='font-size: 14pt;'>#_ATT{bhaa_cost_member}{BHAA Members 10€} per race they run in.</span>
+<span style='font-size: 14pt;'>#_ATT{bhaa_cost_daymember}{Online Day Member 15€} per race when they pre-register and run in.</span>
+<span style='font-size: 14pt;'>On the day Registration costs #_ATT{bhaa_cost_daymember_offline}{Offline Day Member 20€} per race.</span>
+<span style='font-size: 14pt;'>Annual membership costs 15€, if you wish to join the BHAA for a year just click the button.</span>
 [av_button label='Join Now' link='page,2151' link_target='' color='red' custom_bg='#444444' custom_font='#ffffff' size='medium' position='left' icon_select='yes' icon='ue897' font='entypo-fontello' custom_class='']
 [/av_toggle]
 [av_toggle title='Race Entry Fee' tags='']
-<span style='font-size: 14pt;'>#_ATT{bhaa_cost_member}</span>
-<span style='font-size: 14pt;'>#_ATT{bhaa_cost_daymember}</span>
+<span style='font-size: 14pt;'>#_ATT{bhaa_cost_member}{BHAA Members 10€}</span>
+<span style='font-size: 14pt;'>#_ATT{bhaa_cost_daymember}{Online Day Member 15€}</span>
+<span style='font-size: 14pt;'>#_ATT{bhaa_cost_daymember}{Offline Day Member 20€}</span>
 <span style='font-size: 14pt;'>You can enter online on this page to the right or enter on the day before the race and pay by Cash.</span>
 <span style='font-size: 14pt;'>This gets you Race Entry with Chip Timing on Race No. and FREE Post Race Refreshments!</span>
-<span style='font-size: 14pt;'>BHAA Membership costs 15e for the year and gets you a 5e (33%) discount on all 25 races for one year.</span>
+<span style='font-size: 14pt;'>BHAA Membership costs 15€ for the year and gets you a 5€ (33%) discount on all 25 races for one year.</span>
 <span style='font-size: 14pt;'>To become a BHAA member just click this button;</span>
 <span style='font-size: 14pt;'>[av_button label='Join Now' link='page,2151' link_target='' color='red' custom_bg='#444444' custom_font='#ffffff' size='medium' position='left' icon_select='yes' icon='ue897' font='entypo-fontello' custom_class='']</span>
 [/av_toggle]

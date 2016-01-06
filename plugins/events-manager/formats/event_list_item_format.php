@@ -21,9 +21,9 @@ echo "[av_section color='main_color' custom_bg='#f7f7f7' src='' attachment='' at
 [av_one_fifth]
 [av_notification title='' color='custom' border='solid' custom_bg='#012C52' custom_font='#ffffff' size='normal']Race[/av_notification]
 [av_textblock custom_class='']
-<span style='font-size: 14pt;'><strong>#_EVENTNAME</strong></span><br/>
-<span style='font-size: 14pt;'><strong>#_LOCATIONNAME</strong></span><br/>
-<span style='font-size: 14pt;'><strong>#_LOCATIONTOWN</strong></span>
+<span style='font-size: 12pt;'><strong>#_EVENTNAME</strong></span><br/>
+<span style='font-size: 12pt;'><strong>#_LOCATIONNAME</strong></span><br/>
+<span style='font-size: 12pt;'><strong>#_LOCATIONTOWN</strong></span>
 [/av_textblock]
 [av_button label='Race Info Page' link='#_EVENTURL' link_target='' color='theme-color' custom_bg='#444444' custom_font='#ffffff' size='small' position='left' icon_select='yes' icon='ue897' font='entypo-fontello' custom_class='']
 [/av_one_fifth]
@@ -31,27 +31,27 @@ echo "[av_section color='main_color' custom_bg='#f7f7f7' src='' attachment='' at
 [av_one_fifth]
 [av_notification title='' color='custom' border='solid' custom_bg='#012C52' custom_font='#ffffff' size='normal']Type|Cost[/av_notification]
 [av_textblock custom_class='']
-<span style='font-size: 14pt;'>#_CATEGORYNAME</span><br/>
-<span style='font-size: 14pt;'>#_ATT{bhaa_cost_member}{BHAA Members 10�}</span><br/>
-<span style='font-size: 14pt;'>#_ATT{bhaa_cost_daymember}{Online Day Member 15�}</span><br/>
-<span style='font-size: 14pt;'>#_ATT{bhaa_cost_daymember_offline}{Offline Day Member 20�}</span>
+<span style='font-size: 12pt;'>#_CATEGORYNAME</span><br/>
+<span style='font-size: 12pt;'>#_ATT{bhaa_cost_member}{BHAA Members 10€}</span><br/>
+<span style='font-size: 12pt;'>#_ATT{bhaa_cost_daymember}{Online Day Member 15€}</span><br/>
+<span style='font-size: 12pt;'>#_ATT{bhaa_cost_daymember_offline}{Offline Day Member 20€}</span>
 [/av_textblock]
 [/av_one_fifth]
 
 [av_one_fifth]
 [av_notification title='' color='custom' border='solid' custom_bg='#012C52' custom_font='#ffffff' size='normal']Distances[/av_notification]
 [av_textblock custom_class='']
-<span style='font-size: 14pt;'>#_ATT{bhaa_start_type}</span><br/>
-<span style='font-size: 14pt;'>#_ATT{bhaa_race_1}</span><br/>
-<span style='font-size: 14pt;'>#_ATT{bhaa_race_2}</span>
+<span style='font-size: 12pt;'>#_ATT{bhaa_start_type}</span><br/>
+<span style='font-size: 12pt;'>#_ATT{bhaa_race_1}</span><br/>
+<span style='font-size: 12pt;'>#_ATT{bhaa_race_2}</span>
 [/av_textblock]
 [/av_one_fifth]
 
 [av_one_fifth]
 [av_notification title='' color='custom' border='solid' custom_bg='#012C52' custom_font='#ffffff' size='normal']Day | Time[/av_notification]
 [av_textblock custom_class='']
-<span style='font-size: 14pt;'>#_EVENTDATES</span><br/>
-<span style='font-size: 14pt;'>#_EVENTTIMES</span>
+<span style='font-size: 12pt;'>#_EVENTDATES</span><br/>
+<span style='font-size: 12pt;'>#_EVENTTIMES</span>
 [/av_textblock]
 [av_button label='Enter Race Online' link='#_EVENTURL' link_target='' color='theme-color' custom_bg='#444444' custom_font='#ffffff' size='small' position='left' icon_select='yes' icon='ue897' font='entypo-fontello' custom_class='']
 [/av_one_fifth]
