@@ -190,6 +190,27 @@ function bhaa_add_builder_to_posttype($boxes) {
 }
 add_filter('avf_builder_boxes', 'bhaa_add_builder_to_posttype');
 
+// https://www.guillaumemolter.me/2015/11/11/wp-rest-api-v1-vs-v2-disable-wordpress-default-routes-and-endpoints/
+remove_action( 'rest_api_init', 'create_initial_rest_routes', 0 );
+
+//# https://www.iftekhar.net/how-to-disable-rest-api-in-wordpress/
+//# http://wordpress.stackexchange.com/questions/252328/wordpress-4-7-1-rest-api-still-exposing-users
+//add_filter('rest_enabled','__return_false');
+//add_filter('rest_jsonp_enabled','__return_false');
+//
+//function ib_disable_json_api () {
+//	// Disable REST API v1
+//	add_filter('json_enabled','__return_false');
+//	add_filter('json_jsonp_enabled','__return_false');
+//	// Disable REST API v2
+//	add_filter('rest_enabled','__return_false');
+//	add_filter('rest_jsonp_enabled','__return_false');
+//}
+//add_action('after_setup_theme','ib_disable_json_api');
+
+#add_filter('json_enabled', '__return_false');
+#add_filter('json_jsonp_enabled', '__return_false');
+
 //http://msyk.es/blog/prevent-jquery-wordpress-theme/
 //wp_deregister_script('jquery');
 //wp_register_script('jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js', false, '1.11.3');
